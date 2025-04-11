@@ -1,0 +1,94 @@
+name: foodie
+description: "Mock Food Delivery Project."
+publish_to: 'self_test'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  custom_map_markers: ^0.0.2+1
+  flutter:
+    sdk: flutter
+  flutter_credit_card: ^4.0.1
+  flutter_map: ^6.1.0
+  flutter_rating_bar: ^4.0.1
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  http: ^1.2.1
+  image_picker: ^1.1.1
+  intl_phone_field: ^3.2.0
+  latlong2: ^0.9.1
+  lottie: ^3.1.0
+  otp_pin_field: ^1.2.2
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # media media
+  assets:
+    - media/
+    - media/images/
+    - media/fonts/metropolis/
+
+
+
+
+
+  # custom fonts
+  fonts:
+    - family: metro
+      fonts:
+        - asset: media/fonts/metropolis/Metropolis-Black.otf
+          weight: 900
+        - asset: media/fonts/metropolis/Metropolis-ExtraBold.otf
+          weight: 800
+        - asset: media/fonts/metropolis/Metropolis-Bold.otf
+          weight: 700
+        - asset: media/fonts/metropolis/Metropolis-SemiBold.otf
+          weight: 600
+        - asset: media/fonts/metropolis/Metropolis-Medium.otf
+          weight: 500
+        - asset: media/fonts/metropolis/Metropolis-Regular.otf
+          weight: 400
+        - asset: media/fonts/metropolis/Metropolis-Light.otf
+          weight: 300
+        - asset: media/fonts/metropolis/Metropolis-Thin.otf
+          weight: 200
+        - asset: media/fonts/metropolis/Metropolis-ExtraLight.otf
+          weight: 100
+        - asset: media/fonts/metropolis/Metropolis-BlackItalic.otf
+          style: italic
+          weight: 900
+        - asset: media/fonts/metropolis/Metropolis-ExtraBoldItalic.otf
+          style: italic
+          weight: 800
+        - asset: media/fonts/metropolis/Metropolis-BoldItalic.otf
+          style: italic
+          weight: 700
+        - asset: media/fonts/metropolis/Metropolis-SemiBoldItalic.otf
+          style: italic
+          weight: 600
+        - asset: media/fonts/metropolis/Metropolis-MediumItalic.otf
+          style: italic
+          weight: 500
+        - asset: media/fonts/metropolis/Metropolis-RegularItalic.otf
+          style: italic
+          weight: 400
+        - asset: media/fonts/metropolis/Metropolis-LightItalic.otf
+          style: italic
+          weight: 300
+        - asset: media/fonts/metropolis/Metropolis-ThinItalic.otf
+          style: italic
+          weight: 200
+        - asset: media/fonts/metropolis/Metropolis-ExtraLightItalic.otf
+          style: italic
+          weight: 100
+
+    
